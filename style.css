@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.menu-container{
+    display: flex;
+    justify-content: space-between;
+    margin-left:226px ;
+    margin-right:230px ;
+   
+    align-items: center;
+    height: 160px;
+}
+.logo{
+    color: #181818;
+    
+    font-size: 45px;
+  
+    font-weight: 800;
+   
+}
+.logo span{
+    color: #FD6E0A;
+}
+.nav-btn{
+    width:150px ;
+    height: 64px;
+}
+.menu ul{
+    list-style: none;
+    display:flex; 
+    font-weight:400 ; 
+    color: #474747;
+    align-items: center;
+}
+.menu ul li{
+    margin-left:52px ;
+}
+.menu{
+    display: inline-flex;
+}
+.main-header{
+    background: #FFF8F3;
+    height:837px ;
+    width: 1600pz;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+background-image: url("images/header_bg.png"), url("images/developer.png");
+background-repeat: no-repeat;
+background-position: right bottom, top left;
+}
+.common-btn{
+    padding:18px ;
+    border: none;
+    background: #FD6E0A;
+    color:white ;
+    font-weight: 700;
+    font-size:20px ;
+    border-radius: 10px;
+}
+.header-container{
+    display: flex;
+    gap: 163px;
+    padding-left:230px ;
+    padding-right:38px ;
+    align-items: center;
+}
+.header-image{
+    
+}
+.h-image{
+    width: 584px;
+height: 676px;
+}
+.header-content{
+    
+}
+.hh3{
+color: var(--dark-02, #474747);
+font-size: 45px;
+font-weight: 600;
+margin-bottom: 5px;
+}
+.hh1{
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.hhp{
+     color: #757575;
+
+font-size: 18px;
+font-weight: 400;
+margin-bottom: 60px;
+
+}
+.contact-btn{
+    color: #FD6E0A;
+text-align: center;
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding: 18px 23px 18px 58px;
+background:transparent ;
+border: 1px solid #FD6E0A;
+border-radius: 10px;
+margin-left: 30px;
+}
+.call-icn{
+    color:#FFF8F3 ;
+    border: 1px solid ;
+}
+.contact1{
+    margin-left: 10px;
+}
+.about-container{
+    background:#FFF8F3 ;
+    margin:130px 230px ;
+    padding: 130px 156px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius:10px ;
+    text-align: center;
+  
+}
+.about-content{
+    text-align: center;
+}
+.about-paragraph{
+    margin: 30px 0;
+color:#757575 ;
+
+
+font-size: 18px;
+
+font-weight: 400;
+line-height: 30px;
+}
+.about-heading{
+    font-size: 35px;
+    color: #181818;
+    font-weight: 700;
+
+}
+.info-about{
+display: flex;
+gap: 50px;
+margin-top: 30px;
+}
+.info-about h6{
+    font-size: large;
+    font-weight: 100;
+}
